@@ -38,15 +38,21 @@ mv classic classic-orig
 mv gsa-domarques-theme classic
 ```
 
+Now, restart GSA:
+
+```bash
+killall gsad && gsad
+```
+
 ## Customizing colors
 
 This theme comes with 2 color schemes: **Dark** (_default_) and **Light**. See screenshots bellow.
 
-Just change style name
+Just switch style files:
 
 ```bash
-mv gsa-style.css gsa-style-dark.css && gsa-style-light.css gsa-style.css
-mv gsa-login.css gsa-login-dark.css && gsa-login-light.css gsa-login.css
+mv gsa-style.css gsa-style-dark.css && mv gsa-style-light.css gsa-style.css
+mv gsa-login.css gsa-login-dark.css && mv gsa-login-light.css gsa-login.css
 ```
 
 ## Screenshots
@@ -70,11 +76,14 @@ mv gsa-login.css gsa-login-dark.css && gsa-login-light.css gsa-login.css
 * Icons from Font Awesome - http://fontawesome.io/
 * Font 'Open Sans' from Google - https://www.google.com/fonts/specimen/Open+Sans
 
-## Original author's
+## Original authors
 
  * Matthew Mundell
  * Karl-Heinz Ruskowski
  * Jan-Oliver Wagner
+ * Timo Pollmeier
+
+GSA Classic theme css styles.
 
 ## Legal
 
